@@ -1,0 +1,26 @@
+{
+  "name": "react-manage-state",
+  "version": "1.0.0",
+  "description": "manage your global state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai6855/react-state-manager.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai6855/react-state-manager/issues"
+  },
+  "homepage": "https://github.com/sai6855/react-state-manager#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
