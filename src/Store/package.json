@@ -1,6 +1,6 @@
 {
   "name": "react-manage-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "manage your global state",
   "main": "index.js",
   "scripts": {
