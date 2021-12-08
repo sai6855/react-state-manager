@@ -29,6 +29,7 @@ const StoreProvider = ({ defaultStore, children }) => {
 
   const setState = useCallback((callback, paths = []) => {
     change((prevStore) => {
+      console.log(typeof callback);
       if (typeof callback !== "function") {
         let obj = { ...prevStore };
         paths.reduce((acc, path) => {
